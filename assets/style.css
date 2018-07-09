@@ -70,7 +70,7 @@ html, body{
     margin-top: 5%;
     text-align: right;
   }
-  .divider {
+  /* .divider {
     text-align: center;
     opacity: 0;
     width: 308.5px;
@@ -79,7 +79,7 @@ html, body{
     position: relative;
     top: -43.5%;
     left: 10%;
-  }
+  } */
 
   .info{
     position: relative;
@@ -198,9 +198,9 @@ html, body{
     margin-top: 5%;
     text-align: right;
   }
-  .divider {
+  /* .divider {
     position: absolute;
-  }
+  } */
 }
 
 
