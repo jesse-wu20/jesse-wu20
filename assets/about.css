@@ -1,0 +1,47 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  opacity: 0;
+}
+
+.header {
+  padding-top: 10%;
+}
+
+.fading-line {
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 25% 0, 75% 0, from(white), to(white), color-stop(50%, black));
+}
+
+p.welcome {
+  text-align: center;
+  font-weight: bold;
+}
+
+.back {
+  position: relative;
+  padding-top: 1%;
+}
+
+.about-me{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+
+
+.home:hover, .home {
+  text-decoration: none;
+  color: black;
+}

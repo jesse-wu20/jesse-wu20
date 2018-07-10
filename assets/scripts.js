@@ -1,3 +1,10 @@
+anime({
+  targets: '.container',
+  opacity: 1,
+  duration: 2000,
+  easing: 'easeOutCubic',
+})
+
 var jesse_wu = {
   strings: ["Jesse wu", "Jesse_Wu"],
   typeSpeed: 250,
