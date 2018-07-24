@@ -17,12 +17,7 @@ html, body{
   padding-top: 10%;
 }
 
-.fading-line {
-    margin: 25px 0;
-    height: 1px;
-    background: black;
-    background: -webkit-gradient(linear, 25% 0, 75% 0, from(white), to(white), color-stop(50%, black));
-}
+
 
 p.welcome {
   text-align: center;
@@ -33,11 +28,35 @@ p.welcome {
   position: relative;
   padding-top: 1%;
 }
-
+@media screen and (max-width: 940px) {
 .about-me{
+  max-height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  position: relative;
+}
+.fading-line {
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0% 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+}
+@media only screen and (min-width: 1224px){
+.about-me{
+  max-height: 100%;
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+  position: relative;
+}
+.fading-line {
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 25% 0, 75% 0, from(white), to(white), color-stop(50%, black));
+}
 }
 
 
