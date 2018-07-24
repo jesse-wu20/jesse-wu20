@@ -31,8 +31,8 @@ p.welcome {
 @media screen and (max-width: 940px) {
 .about-me{
   max-height: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
   text-align: left;
   position: relative;
 }
